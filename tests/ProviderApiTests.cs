@@ -50,7 +50,7 @@ namespace tests
                                 },
 
                 // Output verbose verification logs to the test output
-                LogLevel = PactLogLevel.Debug,
+                LogLevel = PactLogLevel.Error,
             };
 
             IPactVerifier pactVerifier = new PactVerifier(config);
